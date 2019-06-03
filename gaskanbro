@@ -1,7 +1,7 @@
-toilet -f --gay Cy-Bukalapak
 <?php
 echo " \n\nExplor By Mr.Cy-Arr\n";
-echo "";
+echo "Facebook : Sadewa Dewa\n";
+echo "WhatsApp : 0812-6663-8780\n";
 echo "Masukin Nomor Targetnya bro?\nNomor : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
