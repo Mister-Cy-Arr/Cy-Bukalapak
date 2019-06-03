@@ -1,5 +1,5 @@
 <?php
-echo "Explor By Mr.Cy-Arr\n";
+echo "\clear\nExplor By Mr.Cy-Arr\n";
 echo "";
 echo "Masukin Nomor Targetnya bro?\nNomor : ";
 $nomer = trim(fgets(STDIN));
