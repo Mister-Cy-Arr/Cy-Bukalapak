@@ -8,7 +8,7 @@ if(strlen($nomer)==11){
 }elseif(strlen($nomer)>12){
 	$nomer = str_replace("62","0",$nomer);
 }
-echo "Target: $nomer (Betul(B)/tidak(t))";
+echo "Target: $nomer (Betul(B)/tidak(t))\nJawaban :";
 $cek = trim(fgets(STDIN));
 if($cek=="t") exit("Stopped!\n");
 echo "Jumlahnya bro?\nJumlah : ";
